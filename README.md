@@ -26,9 +26,9 @@ gcloud ml-engine local train --package-path=youtube-8m --module-name=youtube-8m.
 # References
 Please note that we are **not** the author of the following references.
 
-[1] https://arxiv.org/abs/1711.09550
-[2] https://arxiv.org/abs/1706.06905
-[3] https://arxiv.org/abs/1706.03762
+[1] https://arxiv.org/abs/1711.09550  
+[2] https://arxiv.org/abs/1706.06905  
+[3] https://arxiv.org/abs/1706.03762  
 
 # Changes
 - **1.00** (05 August 2018)
