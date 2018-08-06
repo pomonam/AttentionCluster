@@ -1,4 +1,4 @@
-# Copyright 2018 Google, Juhan Inc. All Rights Reserved.
+# Copyright 2018 Google Inc., Juhan Bae All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,11 +16,7 @@
 """
 # noinspection PyUnresolvedReferences
 import pathmagic
-import numpy
 import tensorflow as tf
-from tensorflow import logging
-from tensorflow import flags
-import tensorflow.contrib.slim as slim
 
 
 def SampleRandomSequence(model_input, num_frames, num_samples):
