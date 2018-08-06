@@ -1,4 +1,4 @@
-# Copyright 2018 Juhan Bae All Rights Reserved.
+# Copyright 2018 Google Inc., Juhan Bae All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Contains the base class for modules."""
+"""Contains the base class for models."""
 
 
-class BaseModule(object):
-    """Inherit from this class when implementing new modules."""
+class BaseModel(object):
+    """Inherit from this class when implementing new models."""
     pass
 
-    def forward(self, unused_module_input, **unused_params):
+    def create_model(self, unused_model_input, **unused_params):
         raise NotImplementedError()
