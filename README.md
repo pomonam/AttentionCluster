@@ -34,3 +34,5 @@ Please note that I am **not** the author of the following references.
 - **1.00** (05 August 2018)
     - Initial public release
     
+# Contributors
+- [Juhan Bae](https://github.com/pomonam)
